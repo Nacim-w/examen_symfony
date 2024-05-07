@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Edit Patient</h1>
+    {{ form_start(form) }}
+    {{ form_row(form.numanalyse) }}
+    {{ form_row(form.nom) }}
+    {{ form_row(form.type) }}
+    {{ form_row(form.date) }}
+    {{ form_end(form) }}
+{% endblock %}
